@@ -22,7 +22,7 @@ This project was created as a creative exploration of cryptographic concepts.
 
 * **Vulnerability:** The core encryption logic (without the noise layer) is vulnerable to a structural frequency analysis. An attacker can find the "anchor pattern" (where an inner layer's frequency matches the marker's frequency) to reverse-engineer the message positions *without* the key.
 * **The "Noise" Layer:** The optional security layer (`encriptadorV4.py`) significantly complicates this specific attack by introducing "false positive" patterns. This makes the real signal much harder to find, but it is a form of *obscurity*, not formal security.
-* **Not Formally Secure:** This algorithm has not been (and would not pass) a formal cryptographic review. Its security relies on its custom, obscure nature, not on proven mathematical hardness.
+* **Not Formally Secure:** This algorithm has not been subjected to a formal cryptographic review. Its security relies on its custom, obscure nature, not on proven mathematical hardness.
 * **Efficiency:** The algorithm is computationally slow and produces a ciphertext that is significantly larger than the original plaintext.
 
 This repository is best viewed as a "case study" in custom cipher design and a fun cryptographic puzzle.
