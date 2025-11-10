@@ -1,11 +1,11 @@
 from os import scandir,getcwd,getcwd,name,system
 from os.path import abspath, basename
-from ASCII import ASCII
 import hashlib
 from KeyCreator import KeyCreator
 from encriptadorV4 import crypter
 from WatDcrypt import dcrypter
 
+ASCII=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','ñ','o','p','q','r','s','t','u','v','w','x','y','z',' ','A','B','C','D','E','F','G','H','I','J','K','L','M','N','Ñ','O','P','Q','R','S','T','U','V','W','X','Y','Z',',',';','.',':','-','_','{','}','>','<','`','^','"','[',']','+','*','¿','¡','/','?','1','2','3','4','5','6','7','8','9','0','=',')','(','&','¬','%','$','~','·','#','"','@','!','|','ª','º','á','é','í','ó','ú','â','ê','î','ô','û','à','è','ì','ò','ù','Á','É','Í','Ó','Ú','À','È','Ì','Ò','Ù','Â','Ê','Î','Ô','Û','À','È','Ì','Ò','Ù']
 
 current_script = abspath(__file__)
 
