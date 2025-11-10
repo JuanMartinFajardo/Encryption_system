@@ -8,7 +8,7 @@ This is a encryption method that I created when I was 16 years old. It is not ve
 
 # WatDcrypt: A Positional Frequency-Map Encryption System
 
-WatDcrypt is a and probabilistic encryption algorithm. Unlike traditional ciphers that substitute characters (e.g., 'a' → 'X'), this system encrypts the **structural positions** of each character within the message.
+WatDcrypt is a probabilistic encryption algorithm. Unlike traditional ciphers that substitute characters (e.g., 'a' → 'X'), this system encrypts the **structural positions** of each character within the message.
 
 The final ciphertext is not a string of text, but a **frequency map** (a histogram) that describes the randomly generated numbers used to "draw" the message's structure. Encrypting the same message twice will produce two different, valid ciphertexts.
 
