@@ -48,7 +48,7 @@ This means:
 
 These key numbers (15, 23, etc.) are called **"markers."**
 
-### 2. Encryption (The `posicionador`)
+### 2. Encryption (The position encoder)
 
 This is the core of the algorithm. Let's encrypt the message **"banana"**.
 
@@ -102,7 +102,7 @@ The original positions `[1, 3, 5]` are recovered. The decrypter ignores all nois
 
 ## Files in this Repository
 
-* `encriptadorV4.py`: The Python script to encrypt a message. It contains the `posicionador` logic and the optional "noise" security layer.
+* `encriptadorV4.py`: The Python script to encrypt a message. It contains the position encoder logic and the optional "noise" security layer.
 * `WatDcrypt.py`: The Python script to decrypt the `msn` (ciphertext) back into the original message.
 * `KeyCreator`: The Python script to create key.
 * `main.py`:  The Python script to run.
