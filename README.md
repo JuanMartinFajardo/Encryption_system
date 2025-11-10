@@ -4,6 +4,10 @@ This is a encryption method that I created when I was 16 years old. It is not ve
 
 
 ## How to use it
+Execute main.py in the terminal. There is a text user interface that allows the user to navigate the different options:
+<img width="513" height="194" alt="Captura de pantalla 2025-11-10 a las 13 46 00" src="https://github.com/user-attachments/assets/09a652d1-354a-49b6-ae88-a7f4020ba15e" />
+
+
 
 
 # WatDcrypt: A Positional Frequency-Map Encryption System
@@ -100,3 +104,6 @@ The original positions `[1, 3, 5]` are recovered. The decrypter ignores all nois
 
 * `encriptadorV4.py`: The Python script to encrypt a message. It contains the `posicionador` logic and the optional "noise" security layer.
 * `WatDcrypt.py`: The Python script to decrypt the `msn` (ciphertext) back into the original message.
+* `KeyCreator`: The Python script to create key.
+* `main.py`:  The Python script to run.
+
