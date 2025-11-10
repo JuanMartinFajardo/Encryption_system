@@ -33,7 +33,7 @@ This repository is best viewed as a "case study" in custom cipher design and a f
 
 ### 1. The Key (The Map)
 
-The **`key`** is a sorted list of 256 integers. This key is not a password; it's a **map** that divides the number line into 256 "intervals" or "bins," one for each ASCII character.
+The **`key`** is a sorted list of 256 integers. This key a **map** that divides the number line into 256 "intervals" or "bins," one for each ASCII character.
 
 * The number at `key[97]` (for 'a') might be **15**.
 * The number at `key[98]` (for 'b') might be **23**.
