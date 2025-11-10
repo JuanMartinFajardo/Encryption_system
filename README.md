@@ -1,6 +1,6 @@
 ## About this software
 
-This is a encryption method that I created when I was 16 years old. It is not very efficient, but it was one of my first incursions into the programming world. So I leave it here.
+This is a encryption method that I created when I was 16 years old. It is not very efficient, but it was one of my first incursions into the programming world. So I leave it here. I called it 'WatCrypter'
 
 
 ## How to use it
@@ -10,7 +10,7 @@ Execute main.py in the terminal. There is a text user interface that allows the 
 
 
 
-# WatDcrypt: A Positional Frequency-Map Encryption System
+# WatCrypter: A Positional Frequency-Map Encryption System
 
 WatDcrypt is a probabilistic encryption algorithm. Unlike traditional ciphers that substitute characters (e.g., 'a' → 'X'), this system encrypts the **structural positions** of each character within the message.
 
@@ -107,3 +107,5 @@ The original positions `[1, 3, 5]` are recovered. The decrypter ignores all nois
 * `KeyCreator`: The Python script to create key.
 * `main.py`:  The Python script to run.
 
+### Current HASH of main.py
+42c14f6180caf8d18b324096587ccdca01c0a1a3c96f788dcda43c5ebd09ff3b
