@@ -1,6 +1,6 @@
 ## About this software
 
-This is an encryption method that I created when I was 16 years old. It is not very efficient, but it was one of my first incursions into world of coding. So I leave it here. I called it 'WatCrypter'.
+This is an encryption method that I created when I was 16 years old. It is not very efficient, but it was one of my first incursions into the world of coding. So I leave it here. I called it 'WatCrypter'.
 
 
 ## How to use it
