@@ -19,7 +19,7 @@ The final ciphertext is not a string of text, but a **frequency map** (a histogr
 
 ---
 
-## ⚠️ Security Warning & Honest Assessment
+## Security Warning & Honest Assessment
 
 This project was created as a creative exploration of cryptographic concepts.
 
